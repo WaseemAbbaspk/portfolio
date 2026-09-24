@@ -19,3 +19,11 @@ Cormorant Garamond and DM Sans load from Google Fonts when online. The page uses
 Upload index.html to any static website host as the site's entry page. There is no backend, database, or JavaScript dependency.
 
 This export contains the page source and this guide. Hosting account configuration and credentials are not needed to run it.
+
+## GitHub Pages
+
+The site is prepared for https://waseemabbaspk.github.io/portfolio/.
+
+In the repository's **Settings > Pages**, select **Deploy from a branch**, choose **main** and **/ (root)**, and save. The root `.nojekyll` file tells GitHub Pages to serve the static files directly.
+
+To update the site, edit `index.html`, commit your changes, and push to `main`. GitHub Pages will publish the update automatically.
